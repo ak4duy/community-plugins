@@ -38,6 +38,20 @@ description_key = "settings.password.description"
 default = ""
 
 [[setting]]
+key = "cf_access_client_id"
+type = "string"
+label_key = "settings.cf_access_client_id.label"
+description_key = "settings.cf_access_client_id.description"
+default = ""
+
+[[setting]]
+key = "cf_access_client_secret"
+type = "string"
+label_key = "settings.cf_access_client_secret.label"
+description_key = "settings.cf_access_client_secret.description"
+default = ""
+
+[[setting]]
 key = "refresh_seconds"
 type = "int"
 label_key = "settings.refresh_seconds.label"
