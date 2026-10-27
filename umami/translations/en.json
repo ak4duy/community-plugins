@@ -70,11 +70,11 @@
       "label": "API URL"
     },
     "cf_access_client_id": {
-      "description": "Cloudflare Access service token Client ID, for Umami behind Zero Trust. Create the token under Access → Service Auth and add a Service Auth policy to the application.",
+      "description": "Only for Umami behind Cloudflare Access. Create it under Zero Trust → Access controls → Service credentials, then add a Service Auth policy to the application. See the README.",
       "label": "Cloudflare Access Client ID"
     },
     "cf_access_client_secret": {
-      "description": "Cloudflare Access service token Client Secret. Stored in plain text in your Noctalia config.",
+      "description": "Cloudflare Access service token Client Secret, shown only once when the token is created. Stored in plain text in your Noctalia config.",
       "label": "Cloudflare Access Client Secret"
     },
     "password": {
